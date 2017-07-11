@@ -6,8 +6,8 @@ h2 {
   font-family:inherit;
   font-size: 20px;
 }
-p
-  color: #440066;
+p {
+ color: #440066;
 }
 .secondP {
   color:#ff4d94;
@@ -18,3 +18,25 @@ p
 body{
   background-color: #e6fff2;
 }
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #800060;
+ }
+
+   li {
+       float: left;
+       }
+   li   a {
+     display: block;
+     color: White;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     }
+
+   li a:hover {
+     background-color: black;
+     }
