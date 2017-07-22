@@ -19,6 +19,11 @@ body{
   background-color: #e6fff2;
 }
  ul {
+   position: fixed;
+   top: 0;
+   width:100%;
+ }
+ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -26,12 +31,12 @@ body{
    background-color: #800060;
  }
 button {
-  background-color: #800060; 
+  background-color: #800060;
 }
-   button {
+button {
        float: left;
        }
-   button   a {
+button a {
      display: block;
      color: White;
      text-align: center;
@@ -39,6 +44,6 @@ button {
      text-decoration: none;
      }
 
-   button a:hover {
+button a:hover {
      background-color: black;
      }
