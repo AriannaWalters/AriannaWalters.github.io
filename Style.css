@@ -19,17 +19,24 @@ body{
   background-color: #e6fff2;
 }
  ul {
+   position: fixed;
+   top: 0;
+   width:100%;
+ }
+ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
    background-color: #800060;
  }
-
-   li {
+button {
+  background-color: #800060;
+}
+button {
        float: left;
        }
-   li   a {
+button a {
      display: block;
      color: White;
      text-align: center;
@@ -37,6 +44,6 @@ body{
      text-decoration: none;
      }
 
-   li a:hover {
+button a:hover {
      background-color: black;
      }
