@@ -1,42 +1,40 @@
-h1{
+.title{
   font-size: 50px;
-
+  color: #440066;
+  text-align: center;
 }
-h2 {
+h1 {
   font-family:inherit;
   font-size: 20px;
 }
-p {
- color: #440066;
+.Subtitle {
+  font-size: 30px;
+  text-align: center;
+  color: #800060;
+  font-weight: bold;
 }
-.secondP {
-  color:#ff4d94;
-}
-#firstp{
-  color:#1ad1ff;
+.Preferences{
+  font-size: 22px;
+  font-weight: bold;
 }
 body{
   background-color: #e6fff2;
 }
- ul {
-   position: fixed;
+ div ul {
    top: 0;
    width:100%;
  }
-ul {
+div ul {
    list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
    background-color: #800060;
  }
-button {
-  background-color: #800060;
-}
-button {
+div li {
        float: left;
        }
-button a {
+div li a {
      display: block;
      color: White;
      text-align: center;
@@ -44,6 +42,6 @@ button a {
      text-decoration: none;
      }
 
-button a:hover {
+div li a:hover {
      background-color: black;
      }

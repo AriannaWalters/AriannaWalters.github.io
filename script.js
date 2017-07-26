@@ -1,6 +1,6 @@
-//alert ("Welcome!") ;
+alert ("Welcome to my page!") ;
 console.log ("This website belongs to Arianna Walters.") ;
-document.write ("Arianna Walters' Page") ;
+//document.write ("Arianna Walters' Page") ;
 //function IDK() {
 //  var weeks = 4;
 //  var user = "Arianna";
